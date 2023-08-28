@@ -1,7 +1,7 @@
 #include "monty.h"
 #include <stdbool.h>
 #include <string.h>
-
+datas data_t = {NULL, NULL, NULL};
 /**
  * main - the entry level
  * @argc: number of args
@@ -12,7 +12,6 @@
 
 int main(int argc, char *argv[])
 {
-	datas data_t = {NULL, NULL, NULL, 0};
 	char inp[2048];
 	int line_num = 0;
 	stack_t *stack = NULL;
